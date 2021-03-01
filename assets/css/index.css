@@ -39,14 +39,13 @@ ul li {
     padding: 20px;
 }
 li a {
-    padding: 25px 15px;
+    padding: 25px 10px;
     font-weight: lighter;
     font-size: 1.55vw;
     background-color: white;
     color: black;
-    -ms-transform-origin-y: 15px;
-    transition: background-color .5s, color .5s;
-    transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: background-color .7s, color .7s;
+    
 }
 li a:hover {
     background-color: rgb(46, 46, 46);
@@ -66,6 +65,7 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2px;
 }
 .hero-cta {
     background-color: white;
