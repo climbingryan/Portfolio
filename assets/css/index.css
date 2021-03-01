@@ -127,7 +127,8 @@ li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 50px 0;
+    margin: 275px 0;
+    height: 100vh;
     padding: 100px;
 }
 .project {
