@@ -117,3 +117,41 @@ li a:hover {
 /* ==================
     Projects / Projects
    ================== */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+    padding: 100px;
+}
+.project {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+.project img {
+    background-size: cover;
+    width: 25%;
+    margin-right: 10px;
+}
+.project-content-container {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-content-container p {
+    margin-bottom: 20px;
+}
+.border-container {
+    display: flex;
+    justify-content: center;
+    height: 10px;
+}
+.border {
+    background-color: rgb(138, 138, 138);
+    height: 5px;
+    width: 100px;
+}
