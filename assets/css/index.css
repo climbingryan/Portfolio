@@ -11,7 +11,7 @@ a, p {
 }
 
 /* ==================
-        NAV
+        NAV / Global
    ================== */
 header {
     display: flex;
@@ -50,7 +50,7 @@ li a:hover {
 
 
 /* ==================
-        Hero
+      Hero / Main
    ================== */
 .hero {
     background-image: url('../images/hero-img.jpg');
@@ -70,7 +70,7 @@ li a:hover {
 
 
 /* ==================
-        About Me
+    About Me / Main
    ================== */
 .about-section-handler {
     padding: 50px;
@@ -86,4 +86,29 @@ li a:hover {
 .about-section p {
     font-weight: 300;
     line-height: 150%;
+}
+
+/* ==================
+    Resume / Resume
+   ================== */
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pdf-btn {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    background-color: rgb(37, 231, 88);
+}
+.pdf-btn:hover {
+    background-color: rgb(0, 255, 68);
+}
+.pdf-btn a {
+    text-decoration: none;
+    color: black;
 }
